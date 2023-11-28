@@ -1,2 +1,2 @@
-# pyprac
+# pypractest
 practice
