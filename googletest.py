@@ -8,12 +8,12 @@ import time
 import json
 import os
 
+
+#add your own chromedriver.exe file path if it differs
 chrome_driver_path = 'C:\\Program Files (x86)\\Google\\chromedriver.exe'
 url = 'https://www.google.com'
 
-
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
-
 
 driver.get(url)
 
